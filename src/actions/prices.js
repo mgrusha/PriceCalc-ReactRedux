@@ -1,7 +1,12 @@
-import { GET_STORIES } from "../constants/actionTypes";
+import { GET_PRICE, ADD_PRICE } from "../constants/actionTypes";
 
-const getStories = () => ({
-  type: GET_STORIES,
+const getPrices = () => ({
+  type: GET_PRICE,
 });
 
-export { getStories };
+const addPrices = (price) => ({
+  type: ADD_PRICE,
+  price,
+});
+
+export { getPrices, addPrices };

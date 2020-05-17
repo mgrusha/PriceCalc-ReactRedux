@@ -1,22 +1,21 @@
 import React from "react";
 import PriceFields from "./PriceFields";
+import TotalPrice from "./TotalPrice";
 import { connect } from "react-redux";
-import { getSelectedPrice } from "../selectors/price";
+import { getSelectedPrice, getTotalPrice } from "../selectors/price";
 
-const Prices = ({ prices, onAdd }) => {
+const Prices = ({ className, prices, totalPrice }) => {
   return (
-    <>
+    <div className={className}>
       <PriceFields prices={prices} />
-    </>
+      <TotalPrice totalPrice={totalPrice} />
+    </div>
   );
 };
 
 const mapStateToProps = (state) => ({
   prices: getSelectedPrice(state),
+  totalPrice: getTotalPrice(state),
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  onAdd: (element) => dispatch(null),
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(Prices);
+export default connect(mapStateToProps)(Prices);
