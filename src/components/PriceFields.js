@@ -30,9 +30,16 @@ export default class PriceFields extends React.Component {
             <PricesListItem key={element.title}>
               <span>{element.title}</span>{" "}
               <span>
-                {element.amount}*${element.price}
+                {element.amount === 1 || isNaN(element.amount)
+                  ? element.amount
+                  : `${element.amount}*$${element.price}`}
               </span>
-              <span>${element.amount * element.price}</span>
+              <span>
+                $
+                {element.amount === 1 || isNaN(element.amount)
+                  ? element.price
+                  : `${element.amount * element.price}`}
+              </span>
             </PricesListItem>
           ))}
       </PricesList>

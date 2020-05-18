@@ -4,7 +4,8 @@ const getSelectedPrice = ({ priceState }) => {
 
 const getTotalPrice = ({ priceState }) => {
   return priceState.reduce(
-    (sum, element) => sum + element.price * element.amount,
+    (sum, element) =>
+      sum + element.price * (!isNaN(element.amount) ? element.amount : 1),
     0
   );
 };
