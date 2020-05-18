@@ -30,9 +30,9 @@ export default class PriceFields extends React.Component {
             <PricesListItem key={element.title}>
               <span>{element.title}</span>{" "}
               <span>
-                {element.amount}*{element.price}$
+                {element.amount}*${element.price}
               </span>
-              <span>{element.amount * element.price}$</span>
+              <span>${element.amount * element.price}</span>
             </PricesListItem>
           ))}
       </PricesList>

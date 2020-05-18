@@ -11,7 +11,7 @@ const addNewPrice = (state, action) => {
   }
   return [...state, action.price];
 };
-// const addNewPrice = (state, action) => [...state, action.price];
+
 const removePrice = (state, action) =>
   state.filter((element) => element.title !== action.title);
 

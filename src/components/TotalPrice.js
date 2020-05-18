@@ -24,7 +24,7 @@ export default class TotalPrice extends React.Component {
   render() {
     return (
       <TotalPriceHolder>
-        <span>Total:</span> <span>{this.props.totalPrice}$</span>
+        <span>Total:</span> <span>${this.props.totalPrice}</span>
       </TotalPriceHolder>
     );
   }
