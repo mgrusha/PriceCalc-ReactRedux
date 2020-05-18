@@ -6,7 +6,7 @@ const StyledDropdown = styled(Select)`
   --styled-select-control__border-color: #08a6e4;
   --styled-select-menu-outer__box-shadow: 0px 3px 6px #00000029;
   --styled-select-menu__border-radius: 6px;
-  --styled-select-select__border-radius: 6px;
+  --styled-select__border-radius: 6px;
   --styled-select-clear__font-size: 0.9rem;
   --styled-select-multi-value__font-size: 0.9rem;
   --styled-select-placeholder__font-size: 0.9rem;
