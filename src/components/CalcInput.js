@@ -25,6 +25,7 @@ export const CalcInput = ({ name, price, onAdd, order }) => {
       <PriceInput
         placeholder={name}
         onChange={(e) =>
+          !isNaN(e.target.value) &&
           onAdd({
             title: name,
             amount: e.target.value,

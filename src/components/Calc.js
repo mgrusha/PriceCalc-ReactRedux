@@ -14,11 +14,13 @@ const AreaHolder = styled.div`
   justify-content: center;
   width: 100%;
   font-family: "Open Sans", sans-serif;
+  flex-wrap: wrap;
 `;
 
 const WhitePricesArea = styled(PricesArea)`
   color: white;
   width: 40%;
+  min-width: 300px;
 `;
 
 export const Calc = () => {

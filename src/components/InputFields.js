@@ -10,6 +10,7 @@ const CalcArea = styled.div`
   display: flex;
   flex-direction: column;
   width: 40%;
+  min-width: 300px;
   & > * {
     margin-bottom: 1.5rem;
   }
