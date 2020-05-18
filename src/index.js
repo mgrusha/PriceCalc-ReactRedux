@@ -5,7 +5,6 @@ import App from "./components/App";
 import { Provider } from "react-redux";
 import store from "./store";
 import * as serviceWorker from "./serviceWorker";
-import { getPrices } from "./actions/prices";
 
 ReactDOM.render(
   <Provider store={store}>

@@ -18,9 +18,6 @@ const PricesListItem = styled.li`
   border-radius: 6px;
 `;
 export default class PriceFields extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <PricesList>

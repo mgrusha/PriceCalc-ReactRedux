@@ -20,20 +20,18 @@ const PriceInput = styled.input`
 `;
 
 export const CalcInput = ({ name, price, onAdd, order }) => {
-  {
-    return (
-      <PriceInput
-        placeholder={name}
-        onChange={(e) =>
-          !isNaN(e.target.value) &&
-          onAdd({
-            title: name,
-            amount: e.target.value,
-            price: price,
-            order: order,
-          })
-        }
-      />
-    );
-  }
+  return (
+    <PriceInput
+      placeholder={name}
+      onChange={(e) =>
+        !isNaN(e.target.value) &&
+        onAdd({
+          title: name,
+          amount: e.target.value,
+          price: price,
+          order: order,
+        })
+      }
+    />
+  );
 };

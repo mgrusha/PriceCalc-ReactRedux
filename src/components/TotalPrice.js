@@ -18,9 +18,6 @@ const TotalPriceHolder = styled.div`
   float: right;
 `;
 export default class TotalPrice extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <TotalPriceHolder>
