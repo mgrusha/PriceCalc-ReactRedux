@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pricecalc-reactredux/static/css/main.d52f5be8.chunk.css",
+    "main.js": "/pricecalc-reactredux/static/js/main.31803727.chunk.js",
+    "main.js.map": "/pricecalc-reactredux/static/js/main.31803727.chunk.js.map",
+    "runtime-main.js": "/pricecalc-reactredux/static/js/runtime-main.1648e72b.js",
+    "runtime-main.js.map": "/pricecalc-reactredux/static/js/runtime-main.1648e72b.js.map",
+    "static/js/2.53a9cb4b.chunk.js": "/pricecalc-reactredux/static/js/2.53a9cb4b.chunk.js",
+    "static/js/2.53a9cb4b.chunk.js.map": "/pricecalc-reactredux/static/js/2.53a9cb4b.chunk.js.map",
+    "index.html": "/pricecalc-reactredux/index.html",
+    "precache-manifest.918ea9ddb1617d0d551d2d1857158e28.js": "/pricecalc-reactredux/precache-manifest.918ea9ddb1617d0d551d2d1857158e28.js",
+    "service-worker.js": "/pricecalc-reactredux/service-worker.js",
+    "static/css/main.d52f5be8.chunk.css.map": "/pricecalc-reactredux/static/css/main.d52f5be8.chunk.css.map",
+    "static/js/2.53a9cb4b.chunk.js.LICENSE.txt": "/pricecalc-reactredux/static/js/2.53a9cb4b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1648e72b.js",
+    "static/js/2.53a9cb4b.chunk.js",
+    "static/css/main.d52f5be8.chunk.css",
+    "static/js/main.31803727.chunk.js"
+  ]
+}
